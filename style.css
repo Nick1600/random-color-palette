@@ -1,0 +1,48 @@
+main {
+    height: 100vh;
+}
+
+/*background section*/
+.background {
+    height: 100%;
+    width: 100%;
+}
+.top-half {
+    background-color: white;
+    height: 50%;
+    width: 100%;
+}
+.bottom-half {
+    background-color: black;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+/*Color circles*/
+.circle__container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 32%;
+
+}
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+/*Buttom*/
+.button {
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    height: 50px;
+    width: 100px;
+    border-radius: 30%;
+    background-color: white;
+}
