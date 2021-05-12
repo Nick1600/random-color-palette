@@ -19,9 +19,27 @@ let randColor = function() {
 }
 
 //color assignment
-let colorChange = function() {
+let colorChangeOne = function() {
     circOne.style.backgroundColor = randColor();
 }
+let colorChangeTwo = function() {
+    circTwo.style.backgroundColor = randColor();
+}
+let colorChangeThree = function() {
+    circThree.style.backgroundColor = randColor();
+}
+let colorChangeFour = function() {
+    circFour.style.backgroundColor = randColor();
+}
+let colorChangeFive = function() {
+    circFive.style.backgroundColor = randColor();
+}
 
-button.addEventListener('click', colorChange);
+button.addEventListener('click', colorChangeOne);
+button.addEventListener('click', colorChangeTwo);
+button.addEventListener('click', colorChangeThree);
+button.addEventListener('click', colorChangeFour);
+button.addEventListener('click', colorChangeFive);
+
+//individual assignment
 
