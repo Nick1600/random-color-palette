@@ -37,16 +37,16 @@
     width: 200px;
     border-radius: 50%;
     background-color: red;
-}
-
-/*rgb-display*/
-.rgb-display {
     display: flex;
-    width: 100%;
-    justify-content: center;
-    position: absolute;
-    top: 65%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dis {
     color: white;
+    position: relative;
+    top: 20%;
+
 }
 
 /*Button*/
