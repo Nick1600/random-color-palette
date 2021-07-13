@@ -106,3 +106,9 @@ button.addEventListener('click', displayRgbTwo);
 button.addEventListener('click', displayRgbThree);
 button.addEventListener('click', displayRgbFour);
 button.addEventListener('click', displayRgbFive);
+
+circOne.addEventListener('click', displayRgbOne);
+circTwo.addEventListener('click', displayRgbTwo);
+circThree.addEventListener('click', displayRgbThree);
+circFour.addEventListener('click', displayRgbFour);
+circFive.addEventListener('click', displayRgbFive);
